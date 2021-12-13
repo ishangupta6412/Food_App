@@ -1,11 +1,12 @@
 import React from 'react'
-
+import Navbar from '../components/Navbar.jsx'
 import styled from 'styled-components'
 import { mobile } from '../responsive';
+import Announcement from '../components/Announcement.jsx';
 
 const Container= styled.div`
     width: 100vw;
-height: 100vh;
+height: 88vh;
 background:
 url(https://images.unsplash.com/photo-1457460866886-40ef8d4b42a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) center;
 background-size: cover;
@@ -60,6 +61,8 @@ const Link= styled.a`
 function Login() {
   return (
     <>
+      <Navbar />
+      <Announcement/>
       <Container>
       <Wrapper>
             <Title>Sign In</Title>
