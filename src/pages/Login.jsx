@@ -65,7 +65,7 @@ function Login() {
       <Announcement/>
       <Container>
       <Wrapper>
-            <Title>Sign In</Title>
+            <Title>Login</Title>
             <Form>
               <Input placeholder="Username"/>
               <Input placeholder="Password"/>
